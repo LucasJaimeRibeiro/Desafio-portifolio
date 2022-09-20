@@ -11,6 +11,7 @@
 }
 body {
     background: var(--body-bg-color);
+    margin-top: 30px;
 }
 .canto-icon {
     background: var(--bg-cards);
@@ -56,4 +57,34 @@ body {
 .ende  {
     display: flex;
     flex-direction: column;
+}
+.tec {
+    background: var(--bg-cards);
+    width: 348px;
+    height: 120px;
+    
+    position: absolute;
+    top: 740px;
+    left: 40px;
+}
+.tec .p1 {
+    display: flex;
+    flex-direction: row;
+}
+.ess {
+    width: 348px;
+    height: 100px;
+    background: var(--bg-cards);
+
+    position: absolute;
+    top: 870px;
+    left: 40px;
+}
+.esc {
+    width: 348px;
+    height: 100px;
+    background: var(--bg-cards);
+    position: absolute;
+    top: 1000px;
+    left: 40px;
 }
