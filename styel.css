@@ -1,0 +1,59 @@
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: var(--body-bg-color);
+}
+.canto-icon {
+    background: var(--bg-cards);
+    width: 348px;
+    height: 292px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.canto-icon img {
+    border-radius: 50%;
+    width: 140px;
+    border: 1px solid green;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ende {
+    background: var(--bg-cards);
+    width: 348px;
+    height: 348px;
+    position: absolute;
+    top: 370px;
+    left: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ende li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+.ende  {
+    display: flex;
+    flex-direction: column;
+}
