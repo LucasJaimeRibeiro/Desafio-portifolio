@@ -24,6 +24,8 @@ body {
     position: absolute;
     top: 40px;
     left: 40px;
+    border-radius: 20px;
+    color: var(--text-color);
 }
 .canto-icon img {
     border-radius: 50%;
@@ -46,6 +48,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-radius: 20px;
+    color: var(--text-color);
 }
 .ende li {
     display: flex;
@@ -62,10 +66,12 @@ body {
     background: var(--bg-cards);
     width: 348px;
     height: 120px;
+    color: var(--text-color);
     
     position: absolute;
     top: 740px;
     left: 40px;
+    border-radius: 20px;
 }
 .tec .p1 {
     display: flex;
@@ -75,6 +81,8 @@ body {
     width: 348px;
     height: 100px;
     background: var(--bg-cards);
+    color: var(--text-color);
+    border-radius: 20px;
 
     position: absolute;
     top: 870px;
@@ -84,7 +92,20 @@ body {
     width: 348px;
     height: 100px;
     background: var(--bg-cards);
+    color: var(--text-color);
+    border-radius: 20px;
     position: absolute;
     top: 1000px;
     left: 40px;
+}
+.mypg {
+    width: 900px;
+    height: 86px;
+    background: var(--bg-cards);
+    color: var(--text-color);
+    border-radius: 20px;
+    
+    position: absolute;
+    top: 40px;
+    left: 420px;
 }
